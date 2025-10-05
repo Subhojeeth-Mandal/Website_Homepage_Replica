@@ -961,9 +961,6 @@ a:hover{
 #finalpanel{
     width: 100%;
     height: 10vh;
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
     font: 12px "Amazon Ember", arial, sans-serif;
     font-weight: bold;
     color: #ddd;
@@ -979,4 +976,5 @@ a:hover{
 #upperpanel a{
     text-decoration: none;
     color: #dddddd;
+
 }
