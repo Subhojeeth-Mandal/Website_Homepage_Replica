@@ -1,0 +1,1254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon</title>
+    <link rel="icon" href="../Images/icon.png">
+    <link rel="stylesheet" href="../Css/amazon.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" 
+    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <div id="Navbar1">
+            <div id="leftnavbar">
+                <div id="mainlogo">
+                    <div id="logo"></div> 
+                </div>                  
+            <div id="DeliveryAddress">
+                <div id="location-icon">
+                    <i class="fa-solid fa-location-dot"></i>
+                </div>
+                <div id="address">
+                    <p id="delivery">Delevering to Hyderabad 500001</p>
+                    <p id="location">Update location</p>
+                </div>
+            </div>
+            <div id="searchbar">
+                <select id="all">
+                    <option>All</option>
+                    <option>Alexa</option>
+                    <option>Amazon Devices</option>
+                    <option>Amazon Fashion</option>
+                    <option>Amazon Fresh</option>
+                    <option>Appliances</option>
+                    <option>Apps & Games</option>
+                    <option>Baby</option>
+                    <option>Beauty & Personal Care</option>
+                    <option>Books</option>
+                    <option>Car & Motorbike</option>
+                    <option>Clothing & Accessories</option>
+                    <option>Collectibles & Fine Art</option>
+                    <option>Computers & Accessories</option>
+                    <option>Electronics</option>
+                    <option>Garden & Outdoors</option>
+                    <option>Gift Cards</option>
+                    <option>Grocery & Gourmet Food</option>
+                    <option>Handmade</option>
+                    <option>Health & Household</option>
+                    <option>Home & Kitchen</option>
+                    <option>Industrial & Scientific</option>
+                    <option>Jewelry</option>
+                    <option>Luggage & Travel Gear</option>
+                    <option>Movies & TV Shows</option>
+                    <option>Music, CDs & Vinyl</option>
+                    <option>Musical Instruments</option>
+                    <option>Office Products</option>
+                    <option>Pet Supplies</option>
+                    <option>Shoes, Handbags</option>
+                    <option>Wallets & Sunglasses</option>
+                    <option>Software</option>
+                    <option>Sports,</option>
+                    <option>Fitness & Outdoors</option>
+                    <option>Toys & Games</option>
+                </select>
+                <input type="text" id="search" placeholder="Search Amazon.in" onclick="bright()" onblur="normal()">
+                <div id="search-icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+            </div>
+           <div id="rightnavbar">
+               <div id="Language">
+                    <div id="icon"></div>
+                    <select id="lang">
+                        <option>EN</option> 
+                        <option>HI</option>
+                        <option>TA</option>
+                        <option>TE</option>
+                        <option>KN</option>
+                    </select>  
+                </div>
+                <div id="SignIn">
+                    <p class="firstline">Hello, Sign in</p>
+                    <p class="secondline">Account & Lists</p>
+                </div>
+                <div id="ReturnsOrders">
+                    <p class="firstline">Returns</p>
+                    <p class="secondline">& Orders</p>
+                </div>
+                <div id="Cart">
+                    <i id="cart_icon" class="fa-solid fa-cart-shopping"></i>
+                    Cart
+                </div>
+           </div>
+        </div>  
+         <div id="Navbar2">
+            <div id="leftside">
+                <div id="block1" class="option">
+                    <i id=menu class="fa-solid fa-bars"></i>All
+                </div>
+                <div id="block2" class="option">Fresh</div>
+                <div id="block3" class="option">MX Player</div>
+                <div id="block4" class="option">Sell</div>
+                <div id="block5" class="option">Bestsellers</div>
+                <div id="block6" class="option">Today's Deals</div>
+                <div id="block7" class="option">Mobiles</div>
+                <div id="block8" class="option">New Releases</div>
+                <div id="block9" class="option">Prime</div>
+                <div id="block10" class="option">Customer Service</div>
+                <div id="block11" class="option">Electronics</div>
+                <div id="block12" class="option">Fashion</div>
+                <div id="block13" class="option">Home & Kitchen</div>
+            </div>
+            <div id="rightside"></div>
+         </div>
+    </header>
+    <section> 
+        <header id="slider">
+            <button id="left" onclick="leftbutton()">
+                <i class="fa-solid fa-chevron-left"></i>
+            </button>
+            <button id="right" onclick="rightbutton()">
+                <i class="fa-solid fa-chevron-right"></i>
+            </button>
+        </header>
+        <div id="Main">
+            <div class="box">
+                <div class="outercontainer">
+                    <h2 class="containerhead">Up to 80% off | Home, kitchen & more</h2>
+                    <div class="maincontainer">
+                        <div class="imagecontainer">
+                            <img src="../Images/p1.jpg" alt="" class="images">
+                            <span class="productname">Kitchen essentials</span>
+                        </div>
+                        <div class="imagecontainer">
+                            <img class="images">
+                            <span class="productname">home decor</span>
+                        </div>
+                        <div class="imagecontainer">
+                            <img class="images">
+                            <span class="productname">Furniture</span>
+                        </div>
+                        <div class="imagecontainer">
+                            <img class="images">
+                            <span class="productname">Home improvement</span>
+                        </div>
+                    </div>
+                    <span class="offers">See all deals</span>
+                </div>
+            </div>
+            <div class="box">
+                <div class="outercontainer">
+                    <h2 class="containerhead">Up to 80% off | Electronics & Accessories</h2>
+                    <div class="maincontainer1" id="subimage1"></div>
+                    <span class="offers">See all offers</span>
+                </div>
+            </div>
+            <div class="box">
+                <div class="outercontainer">
+                    <h2 class="containerhead">Up to 70% off | Truly wireless earbuds , headphones & more</h2>
+                    <div class="maincontainer1" id="subimage2"></div>
+                    <span class="offers">See all offers</span>
+                </div>
+            </div>
+            <div class="box">
+                <div class="outercontainer">
+                    <h2 class="containerhead">Up to 70% off | International brands</h2>
+                    <div class="maincontainer1" id="subimage3"></div>
+                    <span class="offers">See all offers</span>
+                </div>
+            </div>
+            <div class="box">
+                <div class="outercontainer">
+                    <h2 class="containerhead">Shop by brand | Deals on top smartphones</h2>
+                    <div class="maincontainer">
+                       <div class="imagecontainer">
+                            <img class="images">
+                            <span class="productname">Savings up to ₹12,000</span>
+                        </div>
+                        <div class="imagecontainer">
+                            <img class="images">
+                            <span class="productname">Savings up to ₹5,000</span>
+                        </div>
+                        <div class="imagecontainer">
+                            <img class="images">
+                            <span class="productname">Savings up to ₹4,000</span>
+                        </div>
+                        <div class="imagecontainer">
+                            <img class="images">
+                            <span class="productname">Savings up to ₹4,000</span>
+                        </div>
+                    </div>
+                    <span class="offers">See all offers</span>
+                </div>
+            </div>
+            <div class="box">
+                <div class="outercontainer">
+                    <h2 class="containerhead">Up to 65% off | Offers on home appliances</h2>
+                    <div class="maincontainer">
+                        <div class="imagecontainer">
+                            <img class="images">
+                            <span class="productname">Washing machines</span>
+                        </div>
+                        <div class="imagecontainer">
+                            <img class="images">
+                            <span class="productname">Refrigerators</span>
+                        </div>
+                        <div class="imagecontainer">
+                            <img class="images">
+                            <span class="productname">Air Conditioners</span>
+                        </div>
+                        <div class="imagecontainer">
+                            <img class="images">
+                            <span class="productname">Chimneys</span>
+                        </div>
+                    </div>
+                    <span class="offers">See all deals</span>
+                </div>
+            </div>
+            <div class="box">
+                <div class="outercontainer">
+                    <h2 class="containerhead">Starting ₹299 | Festive deals | Amazon brands & more</h2>
+                    <div class="maincontainer">
+                        <div class="imagecontainer">
+                            <img class="images">
+                            <span class="productname">Min. 60% off | Home furnishing</span>
+                        </div>
+                        <div class="imagecontainer">
+                            <img class="images">
+                            <span class="productname">Min. 50% off | Cookware sets</span>
+                        </div>
+                        <div class="imagecontainer">
+                            <img class="images">
+                            <span class="productname">Min. 40% off | Daily needs</span>
+                        </div>
+                        <div class="imagecontainer">
+                            <img class="images">
+                            <span class="productname">Min. 60% off | Top-rated styles</span>
+                        </div>
+                    </div>
+                    <span class="offers">See all offers</span>
+                </div>
+            </div>
+            <div class="box">
+               <div class="outercontainer">
+                 <h2 class="containerhead">Big Savings on top TV brands | Upto 65% Off</h2>
+                    <div class="maincontainer">
+                        <div class="imagecontainer">
+                            <img class="images">
+                            <span class="productname">Sony TVs | Up to ₹9,000 exchange offers</span>
+                        </div>
+                        <div class="imagecontainer">
+                            <img class="images">
+                            <span class="productname">Samsung TVs | Up to 12 months No Cost EMI</span>
+                        </div>
+                        <div class="imagecontainer">
+                            <img class="images">
+                            <span class="productname">LG TVs | Up to 40% off</span>
+                        </div>
+                        <div class="imagecontainer">
+                            <img class="images">
+                            <span class="productname">Xiaomi TVs | Up to 50% Off</span>
+                        </div>
+                    </div>
+                    <span class="offers">See all offers</span>
+               </div>
+            </div>
+        </div>
+        <div id="OuterslidingContainer">
+            <span id="dealsheading">Top deals with exchange | Up to ₹74,000 off</span>
+            <div id="secondcontainer">
+                <div id="slidingcontainer">
+                    <div class="card">
+                        <div class="icontainer" id="i1"></div>
+                        <div class="content">
+                            <div class="offerText">
+                                <div class="offer1">
+                                    <div class="off"><span class="firstText">31% off</span></div>
+                                </div>
+                                <div class="offer2">
+                                    <span class="secondtext">Great Indian Festival</span>
+                                </div>
+                            </div>
+                            <div class="price">
+                                <div class="newprice">  
+                                    <span class="a-price dcl-product-price-new" data-a-size="medium_plus" data-a-color="base">
+                                        <span class="a-offscreen"><sup>₹</sup>47,999<sup>00</sup></span>
+                                    </span>
+                                </div>
+                                <div class="oldprice">
+                                    <span aria-hidden="true"><s>₹69,900.00</s></span>
+                                </div>
+                            </div>
+                            <span class="info">
+                                <span>Apple iPhone 15 (128 GB) - Blue</span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="icontainer" id="i2"></div>
+                        <div class="content">
+                            <div class="offerText">
+                                <div class="offer1">
+                                    <div class="off"><span class="firstText">18% off</span></div>
+                                </div>
+                                <div class="offer2">
+                                    <span class="secondtext">Great Indian Festival</span>
+                                </div>
+                            </div>
+                            <div class="price">
+                                <div class="newprice">  
+                                    <span class="a-price dcl-product-price-new" data-a-size="medium_plus" data-a-color="base">
+                                        <span class="a-offscreen"><sup>₹</sup>31,998<sup>00</sup></span>
+                                    </span>
+                                </div>
+                                <div class="oldprice">
+                                    <span aria-hidden="true"><s>₹38,999.00</s></span>
+                                </div>
+                            </div>
+                            <span class="info">
+                                <span>iQOO Neo 10 (Titanium Chrome, 8GB<b>...</b></span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="icontainer" id="i3"></div>
+                        <div class="content">
+                            <div class="offerText">
+                                <div class="offer1">
+                                    <div class="off"><span class="firstText">13% off</span></div>
+                                </div>
+                                <div class="offer2">
+                                    <span class="secondtext">Great Indian Festival</span>
+                                </div>
+                            </div>
+                            <div class="price">
+                                <div class="newprice">  
+                                    <span class="a-price dcl-product-price-new" data-a-size="medium_plus" data-a-color="base">
+                                        <span class="a-offscreen"><sup>₹</sup>30,499<sup>00</sup></span>
+                                    </span>
+                                </div>
+                                <div class="oldprice">
+                                    <span aria-hidden="true"><s>₹34,999.00</s></span>
+                                </div>
+                            </div>
+                            <span class="info">
+                                <span>OnePlus Nord 5 | Snapdragon 8s Gen<b>...</b></span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="icontainer" id="i4"></div>
+                        <div class="content">
+                            <div class="offerText">
+                                <div class="offer1">
+                                    <div class="off"><span class="firstText">26% off</span></div>
+                                </div>
+                                <div class="offer2">
+                                    <span class="secondtext">Great Indian Festival</span>
+                                </div>
+                            </div>
+                            <div class="price">
+                                <div class="newprice">  
+                                    <span class="a-price dcl-product-price-new" data-a-size="medium_plus" data-a-color="base">
+                                        <span class="a-offscreen"><sup>₹</sup>12,998<sup>00</sup></span>
+                                    </span>
+                                </div>
+                                <div class="oldprice">
+                                    <span aria-hidden="true"><s>₹17,499.00</s></span>
+                                </div>
+                            </div>
+                            <span class="info">
+                                <span>iQOO Z10x 5G (Ultramarine, 6GB RA<b>...</b></span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="icontainer" id="i5"></div>
+                        <div class="content">
+                            <div class="offerText">
+                                <div class="offer1">
+                                    <div class="off"><span class="firstText">32% off</span></div>
+                                </div>
+                                <div class="offer2">
+                                    <span class="secondtext">Great Indian Festival</span>
+                                </div>
+                            </div>
+                            <div class="price">
+                                <div class="newprice">  
+                                    <span class="a-price dcl-product-price-new" data-a-size="medium_plus" data-a-color="base">
+                                        <span class="a-offscreen"><sup>₹</sup>49,990<sup>00</sup></span>
+                                    </span>
+                                </div>
+                                <div class="oldprice">
+                                    <span aria-hidden="true"><s>₹73,920.00</s></span>
+                                </div>
+                            </div>
+                            <span class="info">
+                                <span>HP 15, 13th Gen Intel Core i5-1334U<b>..</b></span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="icontainer" id="i6"></div>
+                        <div class="content">
+                            <div class="offerText">
+                                <div class="offer1">
+                                    <div class="off"><span class="firstText">6% off</span></div>
+                                </div>
+                                <div class="offer2">
+                                    <span class="secondtext">Great Indian Festival</span>
+                                </div>
+                            </div>
+                            <div class="price">
+                                <div class="newprice">  
+                                    <span class="a-price dcl-product-price-new" data-a-size="medium_plus" data-a-color="base">
+                                        <span class="a-offscreen"><sup>₹</sup>25,499<sup>00</sup></span>
+                                    </span>
+                                </div>
+                                <div class="oldprice">
+                                    <span aria-hidden="true"><s>₹26,999.00</s></span>
+                                </div>
+                            </div>
+                            <span class="info">
+                                <span>OnePlus Nord CE5 | Massive 7100mA<b>...</b></span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="icontainer" id="i7"></div>
+                        <div class="content">
+                            <div class="offerText">
+                                <div class="offer1">
+                                    <div class="off"><span class="firstText">26% off</span></div>
+                                </div>
+                                <div class="offer2">
+                                    <span class="secondtext">Great Indian Festival</span>
+                                </div>
+                            </div>
+                            <div class="price">
+                                <div class="newprice">  
+                                    <span class="a-price dcl-product-price-new" data-a-size="medium_plus" data-a-color="base">
+                                        <span class="a-offscreen"><sup>₹</sup>15,499<sup>00</sup></span>
+                                    </span>
+                                </div>
+                                <div class="oldprice">
+                                    <span aria-hidden="true"><s>₹20,999.00</s></span>
+                                </div>
+                            </div>
+                            <span class="info">
+                                <span>OnePlus Nord CE4 Lite 5G (Super Si<b>...</b></span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="icontainer" id="i8"></div>
+                        <div class="content">
+                            <div class="offerText">
+                                <div class="offer1">
+                                    <div class="off"><span class="firstText">16% off</span></div>
+                                </div>
+                                <div class="offer2">
+                                    <span class="secondtext">Great Indian Festival</span>
+                                </div>
+                            </div>
+                            <div class="price">
+                                <div class="newprice">  
+                                    <span class="a-price dcl-product-price-new" data-a-size="medium_plus" data-a-color="base">
+                                        <span class="a-offscreen"><sup>₹</sup>37,999<sup>00</sup></span>
+                                    </span>
+                                </div>
+                                <div class="oldprice">
+                                    <span aria-hidden="true"><s>₹44,999.00</s></span>
+                                </div>
+                            </div>
+                            <span class="info">
+                                <span>OnePlus 13R | Smarter with OnePlus<b>...</b></span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="icontainer" id="i9"></div>
+                        <div class="content">
+                            <div class="offerText">
+                                <div class="offer1">
+                                    <div class="off"><span class="firstText">44% off</span></div>
+                                </div>
+                                <div class="offer2">
+                                    <span class="secondtext">Great Indian Festival</span>
+                                </div>
+                            </div>
+                            <div class="price">
+                                <div class="newprice">  
+                                    <span class="a-price dcl-product-price-new" data-a-size="medium_plus" data-a-color="base">
+                                        <span class="a-offscreen"><sup>₹</sup>23,999<sup>00</sup></span>
+                                    </span>
+                                </div>
+                                <div class="oldprice">
+                                    <span aria-hidden="true"><s>₹42,999.00</s></span>
+                                </div>
+                            </div>
+                            <span class="info">
+                                <span>Samsung Galaxy A55 5G (Awesome Ic<b>...</b></span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="icontainer" id="i10"></div>
+                        <div class="content">
+                            <div class="offerText">
+                                <div class="offer1">
+                                    <div class="off"><span class="firstText">32% off</span></div>
+                                </div>
+                                <div class="offer2">
+                                    <span class="secondtext">Great Indian Festival</span>
+                                </div>
+                            </div>
+                            <div class="price">
+                                <div class="newprice">  
+                                    <span class="a-price dcl-product-price-new" data-a-size="medium_plus" data-a-color="base">
+                                        <span class="a-offscreen"><sup>₹</sup>7,999<sup>00</sup></span>
+                                    </span>
+                                </div>
+                                <div class="oldprice">
+                                    <span aria-hidden="true"><s>₹10,999.00</s></span>
+                                </div>
+                            </div>
+                            <span class="info">
+                                <span>Redmi A4 5G (Sparkle Purple, 4GB RA<b>...</b></span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="icontainer" id="i11"></div>
+                        <div class="content">
+                            <div class="offerText">
+                                <div class="offer1">
+                                    <div class="off"><span class="firstText">27% off</span></div>
+                                </div>
+                                <div class="offer2">
+                                    <span class="secondtext">Great Indian Festival</span>
+                                </div>
+                            </div>
+                            <div class="price">
+                                <div class="newprice">  
+                                    <span class="a-price dcl-product-price-new" data-a-size="medium_plus" data-a-color="base">
+                                        <span class="a-offscreen"><sup>₹</sup>10,998<sup>00</sup></span>
+                                    </span>
+                                </div>
+                                <div class="oldprice">
+                                    <span aria-hidden="true"><s>₹14,999.00</s></span>
+                                </div>
+                            </div>
+                            <span class="info">
+                                <span>iQOO Z10 Lite 5G (Titanium Blue, 6GB<b>...</b></span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="icontainer" id="i12"></div>
+                        <div class="content">
+                            <div class="offerText">
+                                <div class="offer1">
+                                    <div class="off"><span class="firstText">19% off</span></div>
+                                </div>
+                                <div class="offer2">
+                                    <span class="secondtext">Great Indian Festival</span>
+                                </div>
+                            </div>
+                            <div class="price">
+                                <div class="newprice">  
+                                    <span class="a-price dcl-product-price-new" data-a-size="medium_plus" data-a-color="base">
+                                        <span class="a-offscreen"><sup>₹</sup>28,998<sup>00</sup></span>
+                                    </span>
+                                </div>
+                                <div class="oldprice">
+                                    <span aria-hidden="true"><s>₹35,999.00</s></span>
+                                </div>
+                            </div>
+                            <span class="info">
+                                <span>iQOO Neo 10R 5G (Moonknight Titan<b>...</b></span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="icontainer" id="i13"></div>
+                        <div class="content">
+                            <div class="offerText">
+                                <div class="offer1">
+                                    <div class="off"><span class="firstText">39% off</span></div>
+                                </div>
+                                <div class="offer2">
+                                    <span class="secondtext">Great Indian Festival</span>
+                                </div>
+                            </div>
+                            <div class="price">
+                                <div class="newprice">  
+                                    <span class="a-price dcl-product-price-new" data-a-size="medium_plus" data-a-color="base">
+                                        <span class="a-offscreen"><sup>₹</sup>13,999<sup>00</sup></span>
+                                    </span>
+                                </div>
+                                <div class="oldprice">
+                                    <span aria-hidden="true"><s>₹22,999.00</s></span>
+                                </div>
+                            </div>
+                            <span class="info">
+                                <span>Samsung Galaxy M36 5G (Velvet Blac<b>...</b></span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="icontainer" id="i14"></div>
+                        <div class="content">
+                            <div class="offerText">
+                                <div class="offer1">
+                                    <div class="off"><span class="firstText">17% off</span></div>
+                                </div>
+                                <div class="offer2">
+                                    <span class="secondtext">Great Indian Festival</span>
+                                </div>
+                            </div>
+                            <div class="price">
+                                <div class="newprice">  
+                                    <span class="a-price dcl-product-price-new" data-a-size="medium_plus" data-a-color="base">
+                                        <span class="a-offscreen"><sup>₹</sup>19,498<sup>00</sup></span>
+                                    </span>
+                                </div>
+                                <div class="oldprice">
+                                    <span aria-hidden="true"><s>₹23,499.00</s></span>
+                                </div>
+                            </div>
+                            <span class="info">
+                                <span>iQOO Z10R 5G (Aquamarine, 8GB RA<b>...</b></span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="icontainer" id="i15"></div>
+                        <div class="content">
+                            <div class="offerText">
+                                <div class="offer1">
+                                    <div class="off"><span class="firstText">23% off</span></div>
+                                </div>
+                                <div class="offer2">
+                                    <span class="secondtext">Great Indian Festival</span>
+                                </div>
+                            </div>
+                            <div class="price">
+                                <div class="newprice">  
+                                    <span class="a-price dcl-product-price-new" data-a-size="medium_plus" data-a-color="base">
+                                        <span class="a-offscreen"><sup>₹</sup>45,999<sup>00</sup></span>
+                                    </span>
+                                </div>
+                                <div class="oldprice">
+                                    <span aria-hidden="true"><s>₹59,900.00</s></span>
+                                </div>
+                            </div>
+                            <span class="info">
+                                <span>Apple iPad Air 11″ with M3 chip: Built f<b>...</b></span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="icontainer" id="i16"></div>
+                        <div class="content">
+                            <div class="offerText">
+                                <div class="offer1">
+                                    <div class="off"><span class="firstText">34% off</span></div>
+                                </div>
+                                <div class="offer2">
+                                    <span class="secondtext">Great Indian Festival</span>
+                                </div>
+                            </div>
+                            <div class="price">
+                                <div class="newprice">  
+                                    <span class="a-price dcl-product-price-new" data-a-size="medium_plus" data-a-color="base">
+                                        <span class="a-offscreen"><sup>₹</sup>9,898<sup>00</sup></span>
+                                    </span>
+                                </div>
+                                <div class="oldprice">
+                                    <span aria-hidden="true"><s>₹14,999.00</s></span>
+                                </div>
+                            </div>
+                            <span class="info">
+                                <span>realme NARZO 80 Lite 5G (Crystal Pu<b>...</b></span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="icontainer" id="i17"></div>
+                        <div class="content">
+                            <div class="offerText">
+                                <div class="offer1">
+                                    <div class="off"><span class="firstText">18% off</span></div>
+                                </div>
+                                <div class="offer2">
+                                    <span class="secondtext">Great Indian Festival</span>
+                                </div>
+                            </div>
+                            <div class="price">
+                                <div class="newprice">  
+                                    <span class="a-price dcl-product-price-new" data-a-size="medium_plus" data-a-color="base">
+                                        <span class="a-offscreen"><sup>₹</sup>22,998<sup>00</sup></span>
+                                    </span>
+                                </div>
+                                <div class="oldprice">
+                                    <span aria-hidden="true"><s>₹27,999.00</s></span>
+                                </div>
+                            </div>
+                            <span class="info">
+                                <span>iQOO Z10 5G (Glacier Silver, 8GB RA<b>...</b></span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="icontainer" id="i18"></div>
+                        <div class="content">
+                            <div class="offerText">
+                                <div class="offer1">
+                                    <div class="off"><span class="firstText">37% off</span></div>
+                                </div>
+                                <div class="offer2">
+                                    <span class="secondtext">Great Indian Festival</span>
+                                </div>
+                            </div>
+                            <div class="price">
+                                <div class="newprice">  
+                                    <span class="a-price dcl-product-price-new" data-a-size="medium_plus" data-a-color="base">
+                                        <span class="a-offscreen"><sup>₹</sup>31,990<sup>00</sup></span>
+                                    </span>
+                                </div>
+                                <div class="oldprice">
+                                    <span aria-hidden="true"><s>₹50,843.00</s></span>
+                                </div>
+                            </div>
+                            <span class="info">
+                                <span>HP 15, 13th Gen Intel Core i3-1315U,<b>...</b></span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="icontainer" id="i19"></div>
+                        <div class="content">
+                            <div class="offerText">
+                                <div class="offer1">
+                                    <div class="off"><span class="firstText">45% off</span></div>
+                                </div>
+                                <div class="offer2">
+                                    <span class="secondtext">Great Indian Festival</span>
+                                </div>
+                            </div>
+                            <div class="price">
+                                <div class="newprice">  
+                                    <span class="a-price dcl-product-price-new" data-a-size="medium_plus" data-a-color="base">
+                                        <span class="a-offscreen"><sup>₹</sup>10,999<sup>00</sup></span>
+                                    </span>
+                                </div>
+                                <div class="oldprice">
+                                    <span aria-hidden="true"><s>₹19,999.00</s></span>
+                                </div>
+                            </div>
+                            <span class="info">
+                                <span>Redmi 13 5G Prime Edition, Black Dia<b>...</b></span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="icontainer" id="i20"></div>
+                        <div class="content">
+                            <div class="offerText">
+                                <div class="offer1">
+                                    <div class="off"><span class="firstText">30% off</span></div>
+                                </div>
+                                <div class="offer2">
+                                    <span class="secondtext">Great Indian Festival</span>
+                                </div>
+                            </div>
+                            <div class="price">
+                                <div class="newprice">  
+                                    <span class="a-price dcl-product-price-new" data-a-size="medium_plus" data-a-color="base">
+                                        <span class="a-offscreen"><sup>₹</sup>37,990<sup>00</sup></span>
+                                    </span>
+                                </div>
+                                <div class="oldprice">
+                                    <span aria-hidden="true"><s>₹53,990.00</s></span>
+                                </div>
+                            </div>
+                            <span class="info">
+                                <span>LG 9 Kg, 5 Star, AI Direct Drive Tech<b>...</b></span>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+       <div class="outerslidercontainer">
+            <div class="actualcontainter">
+                <div class="topheadcontainer">
+                    <span class="dealshead">Up to 70% off | Top deals from stores near you</span>
+                    <span class="explore">Explore more</span>
+                </div>
+                <div class="bottomcontainer">
+                    <div class="slidingproducts">
+                        <div class="goods" id="good1"></div>
+                        <div class="goods" id="good2"></div>
+                        <div class="goods" id="good3"></div>
+                        <div class="goods" id="good4"></div>
+                        <div class="goods" id="good5"></div>
+                        <div class="goods" id="good6"></div>
+                        <div class="goods" id="good7"></div>
+                        <div class="goods" id="good8"></div>
+                        <div class="goods" id="good9"></div>
+                        <div class="goods" id="good10"></div>
+                        <div class="goods" id="good11"></div>
+                        <div class="goods" id="good12"></div>
+                        <div class="goods" id="good13"></div>
+                        <div class="goods" id="good14"></div>
+                        <div class="goods" id="good15"></div>
+                        <div class="goods" id="good16"></div>
+                        <div class="goods" id="good17"></div>
+                        <div class="goods" id="good18"></div>
+                        <div class="goods" id="good19"></div>
+                        <div class="goods" id="good20"></div>
+                        <div class="goods" id="good21"></div>
+                        <div class="goods" id="good22"></div>
+                    </div>
+                </div>
+            </div>
+       </div>
+       <div class="vector">
+            <div class="box">
+               <div class="outercontainer">
+                 <h2 class="containerhead">Up to 70% Off | Empowering Women-led brands</h2>
+                    <div class="maincontainer">
+                        <div class="imagecontainer">
+                            <img class="images">
+                            <span class="productname">Kitchen storage & more</span>
+                        </div>
+                        <div class="imagecontainer">
+                            <img class="images">
+                            <span class="productname">Solid furniture</span>
+                        </div>
+                        <div class="imagecontainer">
+                            <img class="images">
+                            <span class="productname">Women's wear</span>
+                        </div>
+                        <div class="imagecontainer">
+                            <img class="images">
+                            <span class="productname">Skin care & more</span>
+                        </div>
+                    </div>
+                    <span class="offers">See all offers</span>
+               </div>
+            </div>
+            <div class="box">
+               <div class="outercontainer">
+                 <h2 class="containerhead">Up to 70% off | Collections from Emerging businesses</h2>
+                    <div class="maincontainer">
+                        <div class="imagecontainer">
+                            <img class="images">
+                            <span class="productname">Home decorations</span>
+                        </div>
+                        <div class="imagecontainer">
+                            <img class="images">
+                            <span class="productname">Kitchen essentials</span>
+                        </div>
+                        <div class="imagecontainer">
+                            <img class="images">
+                            <span class="productname">Beauty products</span>
+                        </div>
+                        <div class="imagecontainer">
+                            <img class="images">
+                            <span class="productname">Furniture</span>
+                        </div>
+                    </div>
+                    <span class="offers">See all offers</span>
+               </div>
+            </div>
+            <div class="box">
+               <div class="outercontainer">
+                 <h2 class="containerhead">Up to 80% off | Treasures from Indian artisans</h2>
+                    <div class="maincontainer">
+                        <div class="imagecontainer">
+                            <img class="images">
+                            <span class="productname">Kitchen essentials & more</span>
+                        </div>
+                        <div class="imagecontainer">
+                            <img class="images">
+                            <span class="productname">Handcrafted furniture</span>
+                        </div>
+                        <div class="imagecontainer">
+                            <img class="images">
+                            <span class="productname">Women's wear</span>
+                        </div>
+                        <div class="imagecontainer">
+                            <img class="images">
+                            <span class="productname">Toddler toys</span>
+                        </div>
+                    </div>
+                    <span class="offers">See all offers</span>
+               </div>
+            </div>
+            <div class="box">
+                <div class="outercontainer">
+                    <h2 class="containerhead">Up to 45% off | Samsung smartphones</h2>
+                    <div class="maincontainer1" id="subimage4"></div>
+                    <span class="offers">See all offers</span>
+                </div>
+            </div>
+       </div>
+       <div class="outerslidercontainer">
+            <div class="actualcontainter">
+                <div class="topheadcontainer">
+                    <span class="dealshead">Up to 65% off | Deals on Smart TVs</span>
+                </div>
+                <div class="bottomcontainer">
+                    <div class="slidingproducts1">
+                        <div class="goods" id="igood1"></div>
+                        <div class="goods" id="igood2"></div>
+                        <div class="goods" id="igood3"></div>
+                        <div class="goods" id="igood4"></div>
+                        <div class="goods" id="igood5"></div>
+                        <div class="goods" id="igood6"></div>
+                        <div class="goods" id="igood7"></div>
+                        <div class="goods" id="igood8"></div>
+                        <div class="goods" id="igood9"></div>
+                        <div class="goods" id="igood10"></div>
+                        <div class="goods" id="igood11"></div>
+                        <div class="goods" id="igood12"></div>
+                        <div class="goods" id="igood13"></div>
+                        <div class="goods" id="igood14"></div>
+                        <div class="goods" id="igood15"></div>
+                        <div class="goods" id="igood16"></div>
+                        <div class="goods" id="igood17"></div>
+                        <div class="goods" id="igood18"></div>
+                        <div class="goods" id="igood19"></div>
+                        <div class="goods" id="igood20"></div>
+                        <div class="goods" id="igood21"></div>
+                        <div class="goods" id="igood22"></div>
+                        <div class="goods" id="igood23"></div>
+                    </div>
+                </div>
+            </div>
+       </div>
+       <div class="outerslidercontainer">
+            <div class="actualcontainter">
+                <div class="topheadcontainer">
+                    <span class="dealshead">Min.35% off | Top picks from Women entrepreneurs</span>
+                    <span class="seemore">See more</span>
+                </div>
+                <div class="bottomcontainer">
+                    <div class="slidingproducts">
+                        <div class="goods" id="goods1"></div>
+                        <div class="goods" id="goods2"></div>
+                        <div class="goods" id="goods3"></div>
+                        <div class="goods" id="goods4"></div>
+                        <div class="goods" id="goods5"></div>
+                        <div class="goods" id="goods6"></div>
+                        <div class="goods" id="goods7"></div>
+                        <div class="goods" id="goods8"></div>
+                        <div class="goods" id="goods9"></div>
+                        <div class="goods" id="goods10"></div>
+                        <div class="goods" id="goods11"></div>
+                        <div class="goods" id="goods12"></div>
+                        <div class="goods" id="goods13"></div>
+                        <div class="goods" id="goods14"></div>
+                        <div class="goods" id="goods15"></div>
+                        <div class="goods" id="goods16"></div>
+                        <div class="goods" id="goods17"></div>
+                        <div class="goods" id="goods18"></div>
+                    </div>
+                </div>
+            </div>
+       </div>
+        <div class="vector">
+            <div class="box">
+               <div class="outercontainer">
+                 <h2 class="containerhead">Up to 80% off | Amazon brands & more</h2>
+                    <div class="maincontainer">
+                        <div class="imagecontainer">
+                            <img class="images">
+                            <span class="productname">Starting ₹299 | Home essentials</span>
+                        </div>
+                        <div class="imagecontainer">
+                            <img class="images">
+                            <span class="productname">Min. 50% off | Kitchen essentials</span>
+                        </div>
+                        <div class="imagecontainer">
+                            <img class="images">
+                            <span class="productname">Up to 60% off | Toys & games</span>
+                        </div>
+                        <div class="imagecontainer">
+                            <img class="images">
+                            <span class="productname">Min. 55% off | Women's ethnicwear</span>
+                        </div>
+                    </div>
+                    <span class="offers">See all offers</span>
+               </div>
+            </div>
+            <div class="box">
+               <div class="outercontainer">
+                 <h2 class="containerhead">Up to 70% off | Fresh choices from Amazon Launchpad</h2>
+                    <div class="maincontainer">
+                        <div class="imagecontainer">
+                            <img class="images">
+                            <span class="productname">Up to 60% off | Grocery & gourmet</span>
+                        </div>
+                        <div class="imagecontainer">
+                            <img class="images">
+                            <span class="productname">Up to 70% off | Personal care devices</span>
+                        </div>
+                        <div class="imagecontainer">
+                            <img class="images">
+                            <span class="productname">Up to 60% off | Kitchen tools & products</span>
+                        </div>
+                        <div class="imagecontainer">
+                            <img class="images">
+                            <span class="productname">Up to 65% off | Beauty products</span>
+                        </div>
+                    </div>
+                    <span class="offers">See all offers</span>
+               </div>
+            </div>
+            <div class="box">
+               <div class="outercontainer">
+                 <h2 class="containerhead">Up to 70% off | Collections from Small businesses</h2>
+                    <div class="maincontainer">
+                        <div class="imagecontainer">
+                            <img class="images">
+                            <span class="productname">Crafted from small businesses</span>
+                        </div>
+                        <div class="imagecontainer">
+                            <img class="images">
+                            <span class="productname">Products from Emerging businesses</span>
+                        </div>
+                        <div class="imagecontainer">
+                            <img class="images">
+                            <span class="productname">Fresh choices from Amazon Launchpad</span>
+                        </div>
+                        <div class="imagecontainer">
+                            <img class="images">
+                            <span class="productname">Festive decor from Stores near you</span>
+                        </div>
+                    </div>
+                    <span class="offers">See all offers</span>
+               </div>
+            </div>
+            <div class="box">
+                <div class="outercontainer">
+                    <h2 class="containerhead">Up to 70% off | Amazon Renewed</h2>
+                    <div class="maincontainer1" id="subimage5"></div>
+                    <span class="offers">See all offers</span>
+                </div>
+            </div>
+       </div>
+        <div class="outerslidercontainer">
+            <div class="actualcontainter">
+                <div class="topheadcontainer">
+                    <span class="dealshead">Min.30% off | Top selections from Small Businesses</span>
+                    <span class="seemore">See more</span>
+                </div>
+                <div class="bottomcontainer">
+                    <div class="slidingproducts">
+                        <div class="goods" id="wgood1"></div>
+                        <div class="goods" id="wgood2"></div>
+                        <div class="goods" id="wgood3"></div>
+                        <div class="goods" id="wgood4"></div>
+                        <div class="goods" id="wgood5"></div>
+                        <div class="goods" id="wgood6"></div>
+                        <div class="goods" id="wgood7"></div>
+                        <div class="goods" id="wgood8"></div>
+                        <div class="goods" id="wgood9"></div>
+                        <div class="goods" id="wgood10"></div>
+                        <div class="goods" id="wgood11"></div>
+                        <div class="goods" id="wgood12"></div>
+                        <div class="goods" id="wgood13"></div>
+                        <div class="goods" id="wgood14"></div>
+                        <div class="goods" id="wgood15"></div>
+                        <div class="goods" id="wgood16"></div>
+                        <div class="goods" id="wgood17"></div>
+                        <div class="goods" id="wgood18"></div>
+                        <div class="goods" id="wgood19"></div>
+                        <div class="goods" id="wgood20"></div>
+                        <div class="goods" id="wgood21"></div>
+                        <div class="goods" id="wgood22"></div>
+                    </div>
+                </div>
+            </div>
+       </div>
+       <div id="lastblock">
+        <div id="personalizedContainer">
+            <h2 id="firstline">See personalized recommendations</h2>
+            <button id="secondline"><span>Sign in</span></button>
+            <div id="thirdline">
+                <span>New customer?<a href="#">Start here</a></span>
+            </div>
+        </div>
+       </div>
+    </section>
+    <footer>
+        <div id="panel1">
+            <a href="#" id="topline" >Back to top</a>
+        </div>
+        <div id="outerpanel">
+            <div id="panel2">
+                <ul class="listsection">
+                    <p>Get to know us</p>
+                    <a href="">About Amazon</a>
+                    <a href="">Careers</a>
+                    <a href="">Press Releases</a>
+                    <a href="">Amazon Science</a>
+                </ul>
+                <ul class="listsection">
+                    <p>Connect with Us</p>
+                    <a href="">Facebook</a>
+                    <a href="">Twitter</a>
+                    <a href="">Instagram</a>
+                </ul>
+                <ul class="listsection">
+                    <p>Make Money with Us</p>
+                    <a href="">Sell on Amazon</a>
+                    <a href="">Sell under Amazon Accelerator</a>
+                    <a href="">Protect and Build Your Brand</a>
+                    <a href="">Amazon Global Selling</a>
+                    <a href="">Supply to Amazon</a>
+                    <a href="">Become an Affiliate</a>
+                    <a href="">Fulfilment by Amazon</a>
+                    <a href="">Advertise Your Products</a>
+                    <a href="">Amazon Pay on Merchants</a>
+                </ul>
+                <ul class="listsection">
+                    <p>Let us help you</p>
+                    <a href="">Your Account</a>
+                    <a href="">Returns Centre</a>
+                    <a href="">Recalls and Product Safety Alerts</a>
+                    <a href="">100% Purchase Protection</a>
+                    <a href="">Amazon App Download</a>
+                    <a href="">Help</a>
+                </ul>
+            </div>
+        </div>
+        <div id="panel3">
+           <div id="outerpanel3">
+                <div id="footlogo"></div>
+                <div id="world">
+                    <div id="outerlanguage">
+                        <div id="worldlogo"><i class="fa-solid fa-globe"></i></div>
+                        <div id="footlanguage">
+                            <span class="icp-color-base">English</span>
+                        </div>
+                        <div id="slidebuttons">
+                            <i id="size" class="fa-solid fa-caret-up"></i>
+                            <i id="size" class="fa-solid fa-caret-down"></i>
+                        </div>
+                    </div>
+                    <div id="outercountry">
+                        <div id="flag"></div>
+                        <div id="countername">
+                            <span class="icp-color-base">India</span>
+                        </div>
+                    </div>
+                </div>
+           </div>
+        </div>
+        <div id="panel4">
+            <div class="footdescription">
+                <div class="descriptionlist">
+                    <li class="listitems">
+                        <h5 class="descriptionhead"><a href="">AbeBooks</a></h5>
+                         <div class="seconddescription">
+                            <span class="spandescription"><a href="">Books, art & collectibles</a></span>
+                         </div>
+                    </li>
+                </div>
+                <div class="descriptionlist1">
+                    <li class="listitems">
+                        <h5 class="descriptionhead"><a href="">Amazon Web Services</a></h5>
+                         <div class="seconddescription">
+                            <span class="spandescription"><a href="">Scalable Cloud Computing Services</a></span>
+                         </div>
+                    </li>
+                </div>
+                <div class="descriptionlist">
+                    <li class="listitems">
+                        <h5 class="descriptionhead"><a href="">Audible</a></h5>
+                         <div class="seconddescription">
+                            <span class="spandescription"><a href="">Download Audio Books</a></span>
+                         </div>
+                    </li>
+                </div>
+                <div class="descriptionlist">
+                    <li class="listitems">
+                        <h5 class="descriptionhead"><a href="">IMDb</a></h5>
+                         <div class="seconddescription">
+                            <span class="spandescription"><a href="">Movies, TV & Celebrities</a></span>
+                         </div>
+                    </li>
+                </div>
+            </div>
+            <div class="footdescription">
+                <div class="descriptionlist">
+                    <li class="listitems">
+                        <h5 class="descriptionhead"><a href="">Shopbop</a></h5>
+                         <div class="seconddescription">
+                            <span class="spandescription"><a href="">Designer Fashion Brands</a></span>
+                         </div>
+                    </li>
+                </div>
+                <div class="descriptionlist1">
+                    <li class="listitems">
+                        <h5 class="descriptionhead"><a href="">Amazon Business</a></h5>
+                         <div class="seconddescription">
+                            <span class="spandescription"><a href="">Everything For Your Business</a></span>
+                         </div>
+                    </li>
+                </div>
+                <div class="descriptionlist">
+                    <li class="listitems">
+                        <h5 class="descriptionhead"><a href="">Prime Now</a></h5>
+                        <div class="seconddescription">
+                            <span class="spandescription"><a href="">2-Hour Delivery on Everyday Items</a></span>
+                        </div>
+                    </li>
+                </div>
+                <div class="descriptionlist1">
+                    <li class="listitems">
+                        <h5 class="descriptionhead"><a href="">Amazon Prime Music</a></h5>
+                        <div class="seconddescription">
+                            <span class="spandescription"><a href="">100 million songs, ad-free Over 15 million podcast episodes</a></span>
+                        </div>
+                    </li>
+                </div>
+            </div>
+        </div>
+        <div id="finalpanel">
+            <div id="lastpanel">
+                <div id="upperpanel">
+                    <a href="">Conditions of Use & Sale</a>
+                    <a href="">Privacy Notice</a>
+                    <a href="">Interest-Based Ads</a>
+                </div>
+            </div>
+            <div class="bottompanel">
+                <span>© 1996-2025, Amazon.com, Inc. or its affiliates</span>
+            </div>
+        </div>
+    </footer>
+    <script src="../Javascript/amazon.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>                                             
